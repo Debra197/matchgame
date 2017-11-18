@@ -1,0 +1,82 @@
+html {
+  width:100%;
+  height:100%;
+  font-size: 14px;
+  font-family: "WorkSans", sans-serif;
+  background-color: rgb(255, 242, 242);
+}
+
+body {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  min-width: 400px;
+  background-color: rgb(255, 242, 242);
+  font-family: "Work Sans", sans-serif;
+  color: rgb(32, 64, 86);
+}
+.container {
+    padding-top: 5.25rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+    border: 4px solid white;
+    border-radius: 8px;
+    background-color: rgb(32, 64, 86);
+    font-size: 7rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32, 64,86);
+}
+
+h2{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(74,74,74);
+}
+@media (min-width: 1200px){
+grid.less:7
+.container {
+    width: 1170px;
+}
+@media (min-width: 992px){
+grid.less:85
+.container {
+    width: 970px;
+}
+@media (min-width: 768px){
+grid.less:85
+.container {
+    width: 750px;
+}
+}
+bootstrap.css:1576
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
